@@ -11,8 +11,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-qr-code": "1.0.2",
-    "react-scripts": "3.4.3",
-    "reactstrap": "8.5.1"
+    "react-scripts": "3.4.3"
   },
   "devDependencies": {
     "typescript": "3.8.3"

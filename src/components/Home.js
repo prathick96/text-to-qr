@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Input } from "reactstrap";
 import GenerateQR from "./generateQR";
 
 const Home = () => {
@@ -12,7 +11,7 @@ const Home = () => {
   return (
     <div className="container">
       <>
-        <Input
+        <input
           type="text"
           name="qrText"
           id="qrText"
@@ -20,7 +19,9 @@ const Home = () => {
           value={qrText}
           onChange={qrTextInput}
           required
+          style={{ width: "450px;" }}
         />
+        <br />
         <br />
         <GenerateQR data={data} />
       </>
