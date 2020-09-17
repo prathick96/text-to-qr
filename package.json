@@ -8,9 +8,10 @@
     "bootstrap": "4.5.2",
     "create-react-app": "3.4.1",
     "prop-types": "15.7.2",
+    "qrcode.react": "1.0.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-qr-code": "1.0.2",
+    "react-input-color": "3.0.1",
     "react-scripts": "3.4.3"
   },
   "devDependencies": {
