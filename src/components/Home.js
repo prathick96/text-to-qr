@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Label, Input } from "reactstrap";
-import QRCode from "react-qr-code";
+import GenerateQR from "./generateQR";
 
 const Home = () => {
   const [qrText, setQrText] = useState("");
@@ -22,8 +22,8 @@ const Home = () => {
           onChange={qrTextInput}
           required
         />
-        <br /> <br />
-        <QRCode value={data} size={100} />
+        <br />
+        <GenerateQR data={data} />
       </>
     </div>
   );
