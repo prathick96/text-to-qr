@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Label, Input } from "reactstrap";
+import { Input } from "reactstrap";
 import GenerateQR from "./generateQR";
 
 const Home = () => {
@@ -12,7 +12,6 @@ const Home = () => {
   return (
     <div className="container">
       <>
-        <Label for="qrText">Text: </Label>
         <Input
           type="text"
           name="qrText"
