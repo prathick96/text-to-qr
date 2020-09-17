@@ -30,9 +30,9 @@ const GenerateQR = (props) => {
           renderAs={"canvas"}
         />
         <br />
-        <a className={"button"} onClick={downloadQR}>
+        <button className={"button btn-primary"} onClick={downloadQR}>
           Download QR
-        </a>
+        </button>
       </div>
     </>
   );
