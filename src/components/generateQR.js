@@ -17,7 +17,7 @@ const GenerateQR = (props) => {
       </button>
       <div className="collapse" id="collapseExample">
         <br />
-        <QRCode value={props.data} size={100} />
+        <QRCode value={props.data} size={128} />
       </div>
     </>
   );
